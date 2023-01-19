@@ -20,5 +20,6 @@ if __name__ == "__main__":
     chatbot.chat("test")
     bot = telepot.Bot(TOKEN)
     MessageLoop(bot, handle).run_as_thread()
+    print("Telegram Bot running...")
     while True:
         time.sleep(10)
