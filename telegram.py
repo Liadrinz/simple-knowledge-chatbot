@@ -4,7 +4,7 @@ from telepot.loop import MessageLoop
 from chatbot import Chatbot
 
 
-TOKEN = ""
+TOKEN = open("TOKEN.txt", "r").readline().strip()
 
 
 def handle(msg):
